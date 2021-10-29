@@ -1,0 +1,109 @@
+@import url('css/reset.css');
+
+@import url('fonts/fonts.css');
+
+body {
+	font-family: "BadaBoom";
+	background-color: #ccc;
+}
+
+#calculator {
+	background-color: #ffa500;
+	margin: 20px auto;
+	padding: 20px;
+	width: 400px;
+	border-radius: 20px;
+}
+
+#txtDisplay {
+	color: #fff;
+	text-align: right;
+	font-family: "BadaBoom";
+	letter-spacing: 1.5px;
+	font-size: 40px;
+	background: #5e5e5e;
+	padding: 0 10px 10px;
+	width: 100%;
+	margin: 10px 0 10px 0;
+	border: 0;
+	outline: 0;
+	border-radius: 10px;
+	box-shadow: 0px -10px 0 #333;
+	text-shadow: 0 2px 0 #333;
+}
+
+.clear {clear: both;}
+
+/* Basic Button Style */
+#calculator input[type="button"] {
+	width: 24.1%;
+	height: 60px;
+	margin: 5px 2px;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	border-radius: 8px;
+	cursor: pointer;
+	font-family: "BadaBoom";
+	letter-spacing: 1.5px;
+	color: #333;
+	font-size: 30px;
+	box-shadow: 0 5px 0 #333;
+	background: #ddd;
+}
+
+#calculator input[type="button"]:hover {
+	color: #fff;
+	background: #5e5e5e;
+}
+
+#calculator input[type="button"]:active {
+	background: #9f9f9f;
+}
+
+#calculator #btnDelete,
+#calculator #btnSeven,
+#calculator #btnFour,
+#calculator #btnOne,
+#calculator #btnZero {
+	margin-left: 0;
+}
+
+#calculator #btnBackspace,
+#calculator #btnSubtract,
+#calculator #btnAdd,
+#calculator #btnEquals {
+	margin-right: 0;
+}
+
+#calculator #btnOne,
+#calculator #btnTwo,
+#calculator #btnThree,
+#calculator #btnZero,
+#calculator #btnDecimal {
+	float: left;
+}
+
+#calculator #btnZero {
+	width: 49.5%;
+}
+
+#calculator #btnEquals {
+	float: right;
+	height: 130px;
+}
+		
+#message {
+	width: 400px;
+	padding: 50px 20px 80px;
+	text-align: center;
+	box-shadow: 0 2px 5px #444;
+	margin: 50px auto 0px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "BadaBoom";
+	letter-spacing: 1.5px;
+	color: #ffa500;
+	background-color: #fff;
+	transition: all 1s ease-in;
+}

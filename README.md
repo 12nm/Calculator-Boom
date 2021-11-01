@@ -5,8 +5,8 @@ cool and functional Calculator ( Language JavaScript and html )
  ### Stay in touch
  ___
  > Click on the name of the social network you want to contact me 👇
--  [Telegram](http://t.me/amir0026a)
--  [Instagram](http://instagram.com/amir0026_a)
+-  [Telegram](http://t.me/amirdecoder)
+-  [Instagram](http://instagram.com/amirdecoder)
 -  [Whatsapp](http://wa.me/message/D3VOL2BRUSPIE1)
 -  [Discord](http://discord.gg/T4JytppwT8)
 
